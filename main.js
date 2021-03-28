@@ -48,6 +48,14 @@ console.log('!: ', !x);
 
 
 
+// 삼항 연산자(ternary operator)
+let t = 1 < 2;
 
+if (t) {
+    console.log('참');
+} else {
+    console.log('거짓');
+}
 
+console.log(t ? '참' : '거짓');
 
